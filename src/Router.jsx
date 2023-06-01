@@ -4,8 +4,6 @@ import { App } from './App.jsx';
 import AboutPage from './pages/AboutPage.jsx';
 import ErrorPage from './pages/ErrorPage.jsx';
 import HomePage from './pages/HomePage.jsx';
-import { accountService } from './services/AccountService.js';
-import AuthGuard from './utils/AuthGuard.jsx';
 
 
 export const router = createHashRouter([
