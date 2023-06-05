@@ -1,4 +1,5 @@
 import React from 'react';
+import { AppState } from "../AppState.js";
 
 function Controls() {
   return (
@@ -8,7 +9,7 @@ function Controls() {
           Click
         </div>
         <div className="light-yellow-container cheese-counter">
-          Resources
+          <h1>{AppState.cheese}</h1>
         </div>
         <div className="dark-yellow-container auto-power">
           Timer

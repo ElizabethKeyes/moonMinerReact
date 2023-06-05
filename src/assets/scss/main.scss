@@ -84,6 +84,11 @@ form:invalid button[type="submit"] {
   width: 100%;
 }
 
+.moon-image:hover {
+  transform: scale(1.02);
+  cursor: pointer;
+}
+
 .dark-yellow-container {
   background-color: rgba(254, 171, 47, 1);
   border: 1px solid rgba(255, 223, 142, 1)
@@ -104,6 +109,7 @@ form:invalid button[type="submit"] {
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   height: 10vh;
+  border: solid 1px rgba(255, 223, 142, 1)
 }
 
 .auto-power {
@@ -117,4 +123,5 @@ form:invalid button[type="submit"] {
   height: 20vh;
   background-image: linear-gradient(to right, rgba(255, 204, 74, 1), rgba(252, 183, 7, 1));
   border-radius: 15px;
+  border: solid 1px rgba(255, 223, 142, 1)
 }
